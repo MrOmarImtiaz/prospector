@@ -117,13 +117,13 @@ const Interface = () => {
             <button 
               type = "button"
               onClick={handleSubmit1}
-              className="font-mono px-4 py-2 mb-4 bg-black  text-white font-semibold rounded-md">
+              className="font-mono px-4 py-2 mb-4 bg-black  text-foreground font-semibold rounded-md">
               PROSPECT
               </button>
           </div>
         
         {/* Description below Button */}
-          <p className="text-muted-foreground text-center mb-4 font-sans">
+          <p className="text-foreground text-center mb-4 font-sans">
             Press the button above to generate a list of potential customer companies.
           </p>
 
@@ -148,13 +148,13 @@ const Interface = () => {
             <button
               type = "button"
               onClick={handleSubmit2}
-              className="font-mono px-6 py-2 mb-4 bg-black  text-white font-semibold rounded-md">
+              className="font-mono px-6 py-2 mb-4 bg-black  text-foreground font-semibold rounded-md">
               EMAILS 
             </button>
           </div>
           
           {/* Description below Button */}
-          <p className="text-muted-foreground text-center mb-4 font-sans">
+          <p className="text-foreground text-center mb-4 font-sans">
             Press the button above to generate sign-up emails for the prospected comppanies.
           </p>
 
