@@ -78,7 +78,7 @@ const Interface = () => {
       
       {/*Column 1: Card for input */}
       <div className="flex justify-center items-center">
-        <div className="bg-background  p-6 rounded-lg shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
+        <div className="bg-background  p-6 rounded-xl shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
           
           {/* Input label */}
             <div className="flex justify-center">
@@ -88,7 +88,7 @@ const Interface = () => {
             </div>
             
             {/* Description below Button */}
-            <p className="text-muted-foreground text-center mb-4 font-sans">
+            <p className="text-foreground text-center mb-4 font-sans">
               Paste your content from which you want to prospect in the space below.
             </p>
 
@@ -99,7 +99,7 @@ const Interface = () => {
               setInput1(e.target.value);
               console.log("Input:", e.target.value); // Log input value
               }}
-              className="placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-md  bg-muted text-foreground overflow-auto focus:outline-none"
+              className="placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-xl  bg-muted text-foreground overflow-auto focus:outline-none"
               rows = {21}
               placeholder="Paste content here..."
           
@@ -110,7 +110,7 @@ const Interface = () => {
 
       {/*Column 2: Card for input */}
       <div className="flex justify-center items-center">
-        <div className="bg-background  p-6 rounded-lg shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
+        <div className="bg-background  p-6 rounded-xl shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
           
           {/* Button for Prospecting */}
           <div className="flex justify-center">
@@ -130,7 +130,7 @@ const Interface = () => {
         {/* Prospecting List Output */}
           <textarea
             value = {isLoading1 ? 'AI is Processing...' : output1}
-            className= "placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-md  bg-muted text-foreground overflow-auto focus:outline-none"
+            className= "placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-xl  bg-muted text-foreground overflow-auto focus:outline-none"
             rows = {21}
             placeholder="Press Prospect to generate output..."
             readOnly
@@ -141,7 +141,7 @@ const Interface = () => {
       
       {/*Column 1: Card for input */}
       <div className="flex justify-center items-center">
-        <div className="bg-background  p-6 rounded-lg shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
+        <div className="bg-background  p-6 rounded-xl shadow-lg border-2 border-border" style={{ width: "375px", height: "700px" }}>
           
           {/* Button for Emails */}
           <div className="flex justify-center">
@@ -161,7 +161,7 @@ const Interface = () => {
           {/* Emails Output*/}
           <textarea
             value = {isLoading2 ? 'AI is Processing...' : output2}
-            className=" placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-md  bg-muted text-foreground overflow-auto focus:outline-none"
+            className=" placeholder:text-center placeholder:italic placeholder:text-muted-foreground font-sans w-full p-2 border-2 border-border rounded-xl  bg-muted text-foreground overflow-auto focus:outline-none"
             rows = {21}
             placeholder="Press Emails to generate output..."
             readOnly
